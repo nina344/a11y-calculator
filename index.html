@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kalkulator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="calculator" role="application">
+    <input type="text" id="result" readonly aria-live="polite" aria-label="Result"/>
+    
+    <div id="buttons">
+      <button onclick="clearResult()" aria-label="Delete all">C</button>
+      <button onclick="deleteLastCharacter()" aria-label="Delete last character">&lt;</button>
+      <button onclick="appendCharacter('%')" aria-label="Percent">%</button>
+      <button onclick="appendCharacter('/')" aria-label="Divide">/</button>
+
+      <button onclick="appendCharacter('7')" aria-label="Seven">7</button>
+      <button onclick="appendCharacter('8')" aria-label="Eight">8</button>
+      <button onclick="appendCharacter('9')" aria-label="Nine">9</button>
+      <button onclick="appendCharacter('*')" aria-label="Multiply">*</button>
+
+      <button onclick="appendCharacter('4')" aria-label="Four">4</button>
+      <button onclick="appendCharacter('5')" aria-label="Five">5</button>
+      <button onclick="appendCharacter('6')" aria-label="Six">6</button>
+      <button onclick="appendCharacter('-')" aria-label="Minus">-</button>
+
+      <button onclick="appendCharacter('1')" aria-label="One">1</button>
+      <button onclick="appendCharacter('2')" aria-label="Two">2</button>
+      <button onclick="appendCharacter('3')" aria-label="Three">3</button>
+      <button onclick="appendCharacter('+')" aria-label="Plus">+</button>
+
+      <button onclick="appendCharacter('0')" aria-label="Zero">0</button>
+      <button onclick="appendCharacter(',')" aria-label="Point">,</button>
+      <button onclick="calculate()" aria-label="Equals">=</button>
+      <button onclick="startListening()" aria-label="Voice command" id="mic">🎤</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
