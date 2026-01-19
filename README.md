@@ -3,12 +3,12 @@
 An advanced web application built with a core focus on **Digital Accessibility (a11y)** and **Inclusive User Experience**.
 
 ### 🏆 Verification & Results
-- **100/100 Accessibility Score** (Verified by Google Lighthouse).
+- **Manual Testing:** Full compatibility with **NVDA** (Windows) and **TalkBack** (Android).
 - **Automated Testing:** Zero violations found using **Playwright + Axe-core** in automated test runs.
 
 ![Automated Test Pass Confirmation](test_terminal.png)
 
-- **Manual Testing:** Full compatibility with **NVDA** (Windows) and **TalkBack** (Android).
+- **100/100 Accessibility Score** (Verified by Google Lighthouse).
 
 ![Calculator App with 100/100 Lighthouse Score](calculator.png)
 
