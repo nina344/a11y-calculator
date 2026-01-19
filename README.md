@@ -13,7 +13,7 @@ An advanced web application built with a core focus on **Digital Accessibility (
 ![Calculator App with 100/100 Lighthouse Score](calculator.png)
 
 ### ✨ Modern Features
-- **Voice UI:** Integrated **Web Speech API** for hands-free calculations.
+- **Voice UI:** Integrated **Web Speech API** for hands-free calculations (HMI focus).
 - **Advanced Navigation:** Manual focus management via **Roving Tabindex** (crucial for automotive HMI).
 
 ### ⚠️ A Note on `eval()`
