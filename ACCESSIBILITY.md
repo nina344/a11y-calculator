@@ -52,7 +52,9 @@ This document describes the accessibility conformance of the application evaluat
 ## Conformance Disclaimer
 
 This assessment is based on manual evaluation of the application functionality and user interface.
+
 Some advanced keyboard navigation patterns (such as roving tabindex within the button grid) may introduce minor deviations from standard Tab navigation behavior.
+
 No automated certification or third-party audit was performed.
 
 ---
